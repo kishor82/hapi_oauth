@@ -1,0 +1,19 @@
+{
+  "name": "hapi_oauth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "elastic-apm-node": "^3.6.1",
+    "elasticsearch": "^16.7.1",
+    "hapi": "^18.1.0",
+    "hapi-auth-cookie": "^10.0.0",
+    "hapi-oauth2-server-plugin": "^0.4.0",
+    "moment": "^2.26.0"
+  }
+}
