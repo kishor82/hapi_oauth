@@ -4,16 +4,21 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "boom": "^7.3.0",
     "elastic-apm-node": "^3.6.1",
     "elasticsearch": "^16.7.1",
     "hapi": "^18.1.0",
     "hapi-auth-cookie": "^10.0.0",
     "hapi-oauth2-server-plugin": "^0.4.0",
+    "jsonwebtoken": "^8.5.1",
     "moment": "^2.26.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.2.0"
   }
 }

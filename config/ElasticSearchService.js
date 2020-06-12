@@ -1,7 +1,7 @@
 const elasticConnection = {
   host: 'localhost:9200',
   log: 'info'
-}
+};
 const elasticsearch = require('elasticsearch');
 const elasticClient = new elasticsearch.Client(elasticConnection);
 const ElasticSearch = {
@@ -11,7 +11,6 @@ const ElasticSearch = {
     });
   },
   initIndex: function (indexName, body) {
-    console.log({ indexName }, { body })
     return elasticClient.indices.create({
       index: indexName,
       body
@@ -23,7 +22,7 @@ const ElasticSearch = {
       type: 'oauth',
       id: Math.random(),
       body
-    })
+    });
   },
   getById: function (indexName, type, id) {
     return elasticClient.getSource({
@@ -33,7 +32,6 @@ const ElasticSearch = {
     });
   },
   searchDocuments: function (indexName, query) {
-    console.log('heerrr tooo...')
     return elasticClient.search({
       index: indexName,
       body: { ...query }

@@ -1,0 +1,22 @@
+{
+  "mappings": {
+    "oauth": {
+      "properties": {
+        "username": {
+          "type": "keyword",
+          "fields": {
+            "text": {
+              "type": "text"
+            }
+          }
+        },
+        "email": {
+          "type": "keyword"
+        },
+        "password": {
+          "type": "keyword"
+        }
+      }
+    }
+  }
+}
