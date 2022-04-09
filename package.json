@@ -16,7 +16,7 @@
     "hapi-auth-cookie": "^10.0.0",
     "hapi-oauth2-server-plugin": "^0.4.0",
     "jsonwebtoken": "^8.5.1",
-    "moment": "^2.26.0"
+    "moment": "^2.29.2"
   },
   "devDependencies": {
     "eslint": "^7.2.0"
