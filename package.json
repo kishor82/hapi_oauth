@@ -15,7 +15,7 @@
     "hapi": "^18.1.0",
     "hapi-auth-cookie": "^10.0.0",
     "hapi-oauth2-server-plugin": "^0.4.0",
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.0",
     "moment": "^2.26.0"
   },
   "devDependencies": {
